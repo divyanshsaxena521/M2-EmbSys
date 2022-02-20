@@ -5,7 +5,7 @@ An embedded system combines mechanical, electrical, and chemical components alon
 As our world has become more complex, so have the capabilities of the microcontrollers embedded into our devices. Therefore the world needs a trained workforce to develop and manage products based on embedded microcontrollers.
 
 # COMPLEX EMBEDDED SYSTEM [DIGITAL CAMERA]
-
+![Digital camera](https://user-images.githubusercontent.com/98813747/154835819-baf7406a-704e-413c-9f10-a73d9732e3f8.jpg)
 
 
 ### Advantages
