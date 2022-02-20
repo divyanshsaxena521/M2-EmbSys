@@ -2,6 +2,9 @@
 ## INTRODUCTION
  
 Digital thermometers are temperature sensing instruments that are easily portable have permanent probes and a convenientdigital display. The way of digital thermometer works depends uponits type. They are a resistance temperature detector, thermocoupledigital or thermistor digital thermometer. With the help of blockdiagrams we can easily understand the construction of digitalthermometer. We use copper constantan as a thermocouple.
+# BLOCK DIAGRAMS
+![basic of thermoetr' (1)](https://user-images.githubusercontent.com/98813747/154834532-a16b4a7f-c9fc-4ea1-bd9d-a5ea6cba6170.jpg)
+![digital thermometer (1)](https://user-images.githubusercontent.com/98813747/154834537-a2398070-b88b-4359-aed5-0fa265aae410.jpg)
 
 # COMPONENTS 
 
