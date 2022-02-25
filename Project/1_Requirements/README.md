@@ -48,9 +48,9 @@ ATmega328 :- The ATmega328 microcontroller combines 32 KB ISP flash memory with 
 * power saver.
 
 ### Disadvantages
-* 
-* Analog to digital conversion is used 
-* 
+* costly equipments are used like CRO for output.
+* Temp to CAN shows the value of temperature gone over protocol
+* Heater will check the heater button is ON.
 
 ## 4W's and 1 H
 ![5W1H ](https://user-images.githubusercontent.com/98813747/155713466-6c8882f1-321a-404f-bf56-e03183f33dfa.png)
@@ -91,21 +91,6 @@ after SWOT analysis we concluded the following requirements. which are mentioned
 | LL05 | Room temperature info must be shown on the LCD display | success |
 
 ## programming
-* Parallel program mode
-
-|Programming signal|	Pin Name|	I/O	Function|
-|:--:|:------------------------------------------------------:|:---------:|
-|RDY/BSY|	PD1	O|	High means the MCU is ready for a new command, otherwise busy.|
-|OE|	PD2	I|	Output enable (active low)|
-|WR	|PD3	I	|Write pulse (active low)|
-|BS1|	PD4	I	|Byte select 1 ("0" = Low byte, "1" = High byte)|
-|XA0	|PD5	I	|XTAL action bit 0|
-|XA1|	PD6	I	|XTAL action bit 1|
-|PAGEL	|PD7	I	|Program memory and EEPROM data page load|
-|BS2|	PC2	I|	Byte select 2 ("0" = low byte, "1" = 2nd high byte)|
-|DATA|	PC[1:0]:PB[5:0]	|I/O	Bi-directional data bus (output when OE is low)|
-
-
 * Serial program mode
 
 |Serial| programming|
