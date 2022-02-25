@@ -1,7 +1,7 @@
 # Requirements
 ## contents
 * Introduction.
-    *components details.
+   * components details.
 * Block Diagram.
 * Adavntages and Disadvantages.
 * WWWWH(4W's and 1H)
