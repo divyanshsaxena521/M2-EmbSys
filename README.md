@@ -1,4 +1,21 @@
 # M2_EmbSys
+
+* KINDLY GO THROUGH PROJECT->REQUIREMENTS->README.md for this peer review. 
+
+## CaseStudy
+
+    * complex embedded
+    * simple embedded.
+
+## Project
+
+    * Requirements 
+    * Design
+    * Implementation
+    * Report
+    * ImagesAndVideos
+    * Others
+
 An embedded system is a microprocessor-based computer hardware system with software that is designed to perform a dedicated function, either as an independent system or as a part of a large system. At the core is an integrated circuit designed to carry out computation for real-time operations.
 
 Complexities range from a single microcontroller to a suite of processors with connected peripherals and networks; from no user interface to complex graphical user interfaces. 
