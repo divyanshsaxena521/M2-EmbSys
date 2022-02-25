@@ -31,6 +31,8 @@ Push Button :- The push button switch is usually used to turn on and off the con
 
 potentiometer :- A potentiometer is a three-terminal resistor with a sliding or rotating contact that forms an adjustable voltage divider. If only two terminals are used, one end and the wiper, it acts as a variable resistor or rheostat.
 
+Actuator :- An actuator is a component of a machine that is responsible for moving and controlling a mechanism or system, for example by opening a valve. In simple terms, it is a "mover".An actuator is the mechanical component used to manually switch a circuit breaker on and off. Circuit breaker actuators also serve to visually indicate whether a breaker is in ON, OFF, or TRIPPED status.
+
 LED :- A light-emitting diode (LED) is a semiconductor light source that emits light when current flows through it. Electrons in the semiconductor recombine with electron holes, releasing energy in the form of photons.
 
 oscilloscope :-  It is a type of electronic test instrument that graphically displays varying signal voltages, usually as a calibrated two-dimensional plot of one or more signals as a function of time. The displayed waveform can then be analyzed for properties such as amplitude, frequency, rise time, time interval, distortion, and others.
