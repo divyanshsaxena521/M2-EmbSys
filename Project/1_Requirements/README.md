@@ -38,6 +38,9 @@ oscilloscope :-  It is a type of electronic test instrument that graphically dis
 
 ATmega328 :- The ATmega328 microcontroller combines 32 KB ISP flash memory with read-while-write capabilities, 1 KB EEPROM, 2 KB SRAM, 23 general-purpose I/O lines, 32 general-purpose working registers, 3 flexible timer/counters with compare modes, internal and external interrupts, serial programmable USART, a byte-oriented 2-wire serial interface, SPI serial port, 6-channel 10-bit A/D converter (8 channels in TQFP and QFN/MLF packages), programmable watchdog timer with internal oscillator, and 5 software-selectable power-saving modes. The device operates between 1.8 and 5.5 volts. The device achieves throughput approaching 1 MIPS/MHz.
 
+### Block diagram
+![block diagram](https://user-images.githubusercontent.com/98813747/155710913-fd8eb1f6-e631-4a73-bd78-b0d202db8a72.png)
+
 ### Advantages
 * Smoother temperature control.
 * Automatic temperature control according to user's body temperature.
@@ -62,6 +65,7 @@ ATmega328 :- The ATmega328 microcontroller combines 32 KB ISP flash memory with 
 * By sensing the user's body temperature while sitting in the room.
 
 ## SWOT Analysis 
+
 
 after SWOT analysis we concluded the following requirements. which are mentioned below:
 
