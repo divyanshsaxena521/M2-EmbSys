@@ -1,4 +1,4 @@
-# M2-EmbSys
+# M2_EmbSys
 ## contents
 * Introduction
 * workflow
