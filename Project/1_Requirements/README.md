@@ -60,7 +60,7 @@ ATmega328 :- The ATmega328 microcontroller combines 32 KB ISP flash memory with 
 ### What
 * maintains room temperature automatically.
 ### When
-* user enters the room.
+* user enters the room and user is sited.
 ### Where
 * At Home & offices.
 ### How
