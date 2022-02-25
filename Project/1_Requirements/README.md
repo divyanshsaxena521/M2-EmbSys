@@ -67,7 +67,7 @@ ATmega328 :- The ATmega328 microcontroller combines 32 KB ISP flash memory with 
 * By sensing the user's body temperature while sitting in the room.
 
 ## SWOT Analysis 
-
+![SWOT Analysis](https://user-images.githubusercontent.com/98813747/155724546-93690147-3d81-450b-aed5-b0d58defbb9c.png)
 
 after SWOT analysis we concluded the following requirements. which are mentioned below:
 
