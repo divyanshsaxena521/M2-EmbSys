@@ -52,7 +52,9 @@ ATmega328 :- The ATmega328 microcontroller combines 32 KB ISP flash memory with 
 * Analog to digital conversion is used 
 * 
 
-## 4 W's and 1 H
+## 4W's and 1 H
+![5W1H ](https://user-images.githubusercontent.com/98813747/155713466-6c8882f1-321a-404f-bf56-e03183f33dfa.png)
+
 ### Who
 * users who wants a smart room.
 ### What
