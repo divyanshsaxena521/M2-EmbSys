@@ -1,4 +1,4 @@
-PROJ_NAME = Activities
+PROJ_NAME = RoomHeatcontrol
 
 BUILD_DIR = Build
 
