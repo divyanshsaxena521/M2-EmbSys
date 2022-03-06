@@ -1,12 +1,15 @@
 # DESIGN:-
 
 # **Behavioral Diagram:**
+![embedded project ](https://user-images.githubusercontent.com/98813747/156940726-8625581e-bc3d-4c9b-8ae7-6570886ced58.png)
 
 # **Structural Diagram:**
 
 ## High Level Diagram
+![structural high](https://user-images.githubusercontent.com/98813747/156940754-5b6266b7-3fb2-4e2d-ae16-c13a96ba68e1.jpeg)
 
 ## Low Level Diagram
+![strructural low](https://user-images.githubusercontent.com/98813747/156940761-001f80d0-0f4f-4a71-a5a2-35b330b4576a.png)
 
 
 ### Heating Core
@@ -45,6 +48,8 @@ It allows the coolant, the antifreeze, and the air in the system to expand with 
 
 
 # **Block Diagram:**
+![block](https://user-images.githubusercontent.com/98813747/156940871-6e5ad045-0e32-4f68-a782-f53f50f4732a.png)
+
 
 ## Atmega 328
 It enables to measure the heat output as well as control a circulation pump.
@@ -59,3 +64,4 @@ When this Led flicks , it means that the coolant level is running low. It may al
 
  
 # **Flow Chart:**
+![FLOWCHART drawio](https://user-images.githubusercontent.com/98813747/156940809-297af123-11e2-4bfa-a908-288d35b516c5.png)
