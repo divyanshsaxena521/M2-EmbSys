@@ -4,10 +4,10 @@ BUILD_DIR = Build
 
 # All Source code files
 SRC = RoomHeatingApp.c\
-src/activity1.c\
-src/activity2.c\
-src/activity3.c\
-src/activity4.c\
+project2/3_Implementations/src/activity1.c\
+project2/3_Implementations/src/activity2.c\
+project2/3_Implementations/src/activity3.c\
+project2/3_Implementations/src/activity4.c\
 
 
 #Object copy to create hexfile
