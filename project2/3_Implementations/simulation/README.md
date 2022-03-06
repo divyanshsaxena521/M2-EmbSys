@@ -1,1 +1,0 @@
-This folder consist of all simulation files used in this project.

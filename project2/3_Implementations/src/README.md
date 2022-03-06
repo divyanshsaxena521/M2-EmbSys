@@ -1,1 +1,0 @@
-This folder consist of all c files used in this project.

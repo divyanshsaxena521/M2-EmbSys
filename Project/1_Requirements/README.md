@@ -1,15 +1,10 @@
-# Requirements
-## contents
+# **Requirements**
+## **contents:**
 * Introduction.
    * components details.
-* Block Diagram.
-* Adavntages and Disadvantages.
-* WWWWH(4W's and 1H)
-    * Who
-    * What
-    * When
-    * Where
-    * How
+   * software used.
+* Research.   
+* Adavntages.
 * SWOT ANALYSIS
     * Strenght
     * Weakness
@@ -18,14 +13,20 @@
 * Requirements
     * High Level Requirements 
     * Low level Requirements
+* WWWWH(4W's and 1H)
+    * Who
+    * What
+    * When
+    * Where
+    * How
 
 
-## Introduction
-A temperature sensor is a device, typically, a thermocouple or resistance temperature detector, that provides temperature measurement in a readable form through an electrical signal. A thermometer is the most basic form of a temperature meter that is used to measure the degree of hotness and coolness.
 
-The heat control system is basically used to control the temperature of a room. When a user or person enters the room and sit on the chair which is intalled with the sensor ,the button sensor gets activated. After that, the user gets access to turn on the heater. The temperature sensor keeps monitoring the temperature and sends the analog value to the microcontroller. The microcontroller processes the analog input of the temperature sensor and outputs a temperature value through serial communication. All the activities of the control system are done on a microcontroller called Atmega328.
+# **Introduction:**
 
-## Components Details
+The heating system is basically used to control the temperature. The user gets access to turn on the heater. The temperature sensor keeps monitoring the temperature and sends the analog value to the microcontroller. The microcontroller processes the analog input of the temperature sensor and outputs a temperature value through serial communication. All the activities of the activities of the control system are done on a microcontroller called Atmega328. The functionality of the heat control system is coded in embedded c and the working is demonstrated using simuation in a software called SimulIDE.
+
+## Components Details:
 Push Button :- The push button switch is usually used to turn on and off the control circuit.
 
 potentiometer :- A potentiometer is a three-terminal resistor with a sliding or rotating contact that forms an adjustable voltage divider. If only two terminals are used, one end and the wiper, it acts as a variable resistor or rheostat.
@@ -38,64 +39,82 @@ oscilloscope :-  It is a type of electronic test instrument that graphically dis
 
 ATmega328 :- The ATmega328 microcontroller combines 32 KB ISP flash memory with read-while-write capabilities, 1 KB EEPROM, 2 KB SRAM, 23 general-purpose I/O lines, 32 general-purpose working registers, 3 flexible timer/counters with compare modes, internal and external interrupts, serial programmable USART, a byte-oriented 2-wire serial interface, SPI serial port, 6-channel 10-bit A/D converter (8 channels in TQFP and QFN/MLF packages), programmable watchdog timer with internal oscillator, and 5 software-selectable power-saving modes. The device operates between 1.8 and 5.5 volts. The device achieves throughput approaching 1 MIPS/MHz.
 
-### Block diagram
-![block diagram](https://user-images.githubusercontent.com/98813747/155710913-fd8eb1f6-e631-4a73-bd78-b0d202db8a72.png)
+## software used:
+    * SimulIDE
+    * GCC Compiler for AVR
+    * VS Code
 
-### Advantages
-* Smoother temperature control.
-* Automatic temperature control according to user's body temperature.
-* Flexibility in changing the room temperature.
-* power saver.
+# **Research:**
 
-### Disadvantages
-* costly equipments are used like CRO for output.
-* Temp to CAN shows the value of temperature gone over protocol
-* Heater will check the heater button is ON.
+Seat warmers were first introduced by Cadillac in 1966 to help with backaches. Some vehicles come with car seat warmers, which heat up the seat with the push of a button. Normally the buttons are located on the side of the driver and passenger door. In some vehicles, just the bottom of the seat warms up, where in others both the bottom and back warm up.
 
-## 4W's and 1 H
-![5W1H ](https://user-images.githubusercontent.com/98813747/155713466-6c8882f1-321a-404f-bf56-e03183f33dfa.png)
 
-### Who
-* users who wants a smart room.
-### What
-* maintains room temperature automatically.
-### When
-* user enters the room and user is sited.
-### Where
-* At Home & offices.
-### How
-* By sensing the user's body temperature while sitting in the room.
+# **Advantages:**
 
-## SWOT Analysis 
+Heated seats can make cars much more comfortable in the winter, or for those who often get cold even in the summer. The heater in most vehicles work well, but the car’s seat warmer is close to your body allowing you to warm up faster. In some cases, the seat warms up before the rest of the vehicle does.
+
+ 
+# **SWOT Analysis:**
+
 ![SWOT Analysis](https://user-images.githubusercontent.com/98813747/155724546-93690147-3d81-450b-aed5-b0d58defbb9c.png)
 
-after SWOT analysis we concluded the following requirements. which are mentioned below:
 
-## High Level Requirements
-| ID | Description | status |
-| --- | --- | --- |
-| HL01 | System should be able to sense the user presence perfectly for further process |  success |
-| HL02 | User should be able to change the room temperature manually | success |
-| HL03 | System must recognise the user body temperture| success |
-| HL04 |  LEDs must be used for providing the output signal to the user | success |
-| HL05 | System should recognize the error condition | future | 
+**Strength:**
+
+The advantage of such devices is that you can not wait until the entire salon warms up, and immediately go on business. After all, heating has a local effect, so they do their job in 2-5 minutes.
+
+**Weakness:**
+- If you do not follow the recommendations and go too far with the temperature, this can lead to a decrease in the driver’s attentiveness, cause fatigue and headaches, and also increase the risk of catching a cold due to a violation of the body’s temperature regime.
+- the power cord is plugged in only after you fix the cape;
+- if you spill any liquid on the heater cover, immediately turn off the device;
+- if you leave the car, do not leave the device turned on;
+- you can not wash the capes, iron, maximum-shake;
+- Use dry bags to store the heater.
+
+**Opportunities:**
+
+The advanced technologies in automotive seat heaters are predicted to increase the growth of the market in the review period. The latest features like modern seat heaters like consistent and controlled warmth, heating level adjustment are attracting the consumers and are expected to propel the market growth. Growing demand for comfort and energy capabilities in vehicles is accelerating market growth.
+
+**Threats:**
+- A lack of regulation for these seats has left consumers more open to injuries.
+- Within 10 minutes at 120 degrees an individual can experience third-degree burns. For those with the inability to feel the temperature at the time, this can prove even more dangerous. Those who have been diagnosed with conditions such as paralysis, diabetes, and neuropathy are less like to feel the heat in their lower extremities.
+- High electrical resistance could cause the heater pad in the seat to overheat.
+
+After SWOT analysis we concluded the following requirements. which are mentioned below:
+
+##  Requirements
+### High Level Requirements:
+| ID | Description | Status |
+|------| ------| ------|
+| HLR1 | When the two switches are closed, the first LED glows indicating the actuation of the system and the heater. | Implemented
+|HLR2  | Next the analog input from the temperature sensor is received and digitized.| Implemented
+|HLR3  | The hard disk must be 4 GB . |	Implemented
+|HLR4  | The web browser must be Microsoft Internet Explorer with a resolution of at least 800 \* 600. |	Implemented
+
+#### Low Level Requirements:
+
+| ID | Description | Status |
+|-------|------|------|
+| LLR1 | The digitized temperature input is visualized using Pulse Width Modulation.| Implemented 
+| LLR2 | The system runs effectively on Windows 2000 server but it will also run equally well on compatible operating systems.  | Implemented
+| LLR3 | The corresponding temperature values based on the digitized temperature input is transmitted by the UART protocol. Here the data is displayed on the serial monitor.| Implemented 
 
 
-## Low Level Requirement
-| ID | Description | status |
-| --- | --- | --- |
-| LL01 | When the two switches are closed, the first LED glows indicating the actuation of the system and the heater | success | 
-| LL02 | Analog input value must be recieved from temperature sensor| success | 
-| LL03 | digitalised temperature value must be set to output | success |
-| LL04 | Error condition must be shown to the user | future |
-| LL05 | Room temperature info must be shown on the LCD display | success |
+# **4W and 1H:**
 
-## programming
-* Serial program mode
+![5W1H ](https://user-images.githubusercontent.com/98813747/155713466-6c8882f1-321a-404f-bf56-e03183f33dfa.png)
 
-|Serial| programming|
-|:--:|:------------------------------------------------------:|
-|Symbol|	Pins|	I/O	Description|
-|MOSI	|PB3	I	|Serial data in|
-|MISO|	PB4	O | Serial Data out|
-|SCK	|PB5	I	|Serial Clock|
+**What:**
+Heated seats can make cars much more comfortable in the winter, or for those who often get cold even in the summer. The heater in most vehicles work well, but the car's seat warmer is close to your body allowing you to warm up faster. In some cases, the seat warms up before the rest of the vehicle does.
+
+**When:**
+Heated front seats not only offer luxurious comfort, relaxation and benefits for physical health, but also increase safety. Heating seats and backrests ensures a high level of well-being and prevents a cramped posture. Winter clothes limiting freedom of movement can be dispensed with. This also results in better operation of the restraint system by reducing the slack in safety belts. People with back or kidney problems benefit from a possible reduction of pain. It is mostly used in cars.
+
+**Where:**
+In car seats
+
+**Why:**
+Heated seats can bring a lot of different benefits beyond just having a nice and warm place to sit. The single greatest benefit that heated seats can bring is the therapeutic warmth it offers. This is great for older drivers or people with a few aches and pains.
+
+**How:**
+The longer the seat cushion stays on, the hotter it gets. If it were to stay on for too long, it would get hot enough to become uncomfortable or even dangerous to sit in. It could even start a fire in the cushion. To prevent this, most car seat heaters have a thermostat. The thermostat measures the temperature in the cushion. When it reaches a certain temperature, the thermostat sends a signal, automatically turning off the relay until the seat cools down a bit. At that point, the thermostat turns the relay back on again. Many seat cushions also have “high” and “low” settings that let the driver control the temperature of the seat cushions.

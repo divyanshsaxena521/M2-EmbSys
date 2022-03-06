@@ -1,1 +1,0 @@
-This folder consist of all header files used in this project.
