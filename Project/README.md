@@ -13,9 +13,9 @@
 The heat control system is basically used to control the temperature of a room. When a user or person enters the room and sit on the chair which is installed with the sensor ,the button sensor gets activated. After that, the user gets access to turn on the heater. The temperature sensor keeps monitoring the temperature and sends the analog value to the microcontroller. The microcontroller processes the analog input of the temperature sensor and outputs a temperature value through serial communication. All the activities of the control system are done on a microcontroller called Atmega328.
 
 ## workflow 
-| Codacy | Codiga | Cpp check| Unity |
+| Code quality score | Cpp check| codica code grade | codica |
 | --- | --- | --- | --- |
-| | |[![cppcheck-action-test](https://github.com/divyanshsaxena521/M2_EmbSys/actions/workflows/cpp%20check.yml/badge.svg)](https://github.com/divyanshsaxena521/M2_EmbSys/actions/workflows/cpp%20check.yml) | |
+| https://api.codiga.io/project/31608/score/svg |[![cppcheck-action-test](https://github.com/divyanshsaxena521/M2_EmbSys/actions/workflows/cpp%20check.yml/badge.svg)](https://github.com/divyanshsaxena521/M2_EmbSys/actions/workflows/cpp%20check.yml) | https://api.codiga.io/project/31608/status/svg | [![Codacy Badge](https://app.codacy.com/project/badge/Grade/ef3f4784dd50404e86be1b786067e299)](https://www.codacy.com/gh/divyanshsaxena521/M2_EmbSys/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=divyanshsaxena521/M2_EmbSys&amp;utm_campaign=Badge_Grade) |
 
 ## Folder structure
 | 1_Requirements | 2_Design | 3_Implementation | 4_TestplanAndOutput | 5_Report | 6_ImagesAndVideos | 7_Others |
@@ -51,11 +51,21 @@ ADC Value (Temp Sensor)| Output PWM
 3. Run "make run" command in terminal for main code execution
 
 ## Folder description
-| Folder | Description |
-| --- | --- |
+| Folder | Description | 
+| --- | --- | 
 | inc | Contains header files |
 | src | Contains additional source file for compilation |
+| simulation | contains all simulide and hex files for simulation |
+
 
 
 ## References
-|[Getting started ](https://youtu.be/_z0ssXxOM7U)|[project reference](https://www.electronicshub.org/embedded-systems-projects-ideas/)|
+|[Getting started ](https://youtu.be/_z0ssXxOM7U)|
+
+## Learning Resources
+
+1.[gcc makefile](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html#zz-2.1)
+
+2.[github workflow](https://www.programiz.com/c-programming/c-dynamic-memory-allocation)
+
+3.[structure in c](https://www.studytonight.com/c/structures-in-c.php/)
