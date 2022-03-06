@@ -1,5 +1,7 @@
 #### TEST PLAN:
 This folder contains all the images of test cases.
+![sample](https://user-images.githubusercontent.com/98813747/156941717-46cec9a2-3948-4cc8-87c4-a7889f95fe27.gif)
+
 
 ### High Level Test plan:
 | ID    | Description                             | Expected O/P | Actual O/P | Type of Test |
