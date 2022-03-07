@@ -1,5 +1,14 @@
 
 
+# IMPLEMENTATION/EXECUTION/SIMULATION
+![Simulation_OFF](https://user-images.githubusercontent.com/98813747/157099994-f4a5dc07-621d-42eb-a893-5c592af2548f.png)
+
+
+![Simulation_ON](https://user-images.githubusercontent.com/98813747/157100026-c787a7e6-1593-4c9a-9bfe-5fdcc49d6df0.png)
+
+https://user-images.githubusercontent.com/98813747/157098671-b4549bd7-811d-4e2a-991c-068b2670763d.mp4
+
+# WORKING
 #### Activity 1:
 
 |OFF|OFF|
@@ -28,3 +37,7 @@
 |:--:|:--:|
 | ![activity_4 3](https://user-images.githubusercontent.com/94169797/144205364-cb47aa68-5a90-4566-830b-aa7a856d5df6.jpg) | ![activity_4 4](https://user-images.githubusercontent.com/94169797/144205368-60e9bf0a-fb85-4913-92df-f6a46ada786a.jpg) |
 
+# OUTPUT
+| CIRCUIT | SERIAL MONITOR | RAM TABLE | OSCILLOSCOPE |
+| --- | --- | --- | --- |
+| ![Circuit](https://user-images.githubusercontent.com/98813747/157098942-ee1c995b-990d-4ac6-bf56-f971546fa18c.gif) | ![Serial_Monitor](https://user-images.githubusercontent.com/98813747/157099663-e852c394-8c39-4743-b296-63f5c3e0039a.gif) | ![RAM_table](https://user-images.githubusercontent.com/98813747/157099706-f3a065ef-9c46-42ee-9b90-4f77a939ee13.gif) | ![Oscilloscope](https://user-images.githubusercontent.com/98813747/157099592-34a2b25d-bce9-4b93-97ce-ef386cc057a7.gif) |
