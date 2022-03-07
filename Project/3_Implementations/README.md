@@ -1,4 +1,4 @@
-# Implementation
+# Implementations
 
 ## Instructions to execute
 
@@ -12,5 +12,3 @@
 | documentation| Contains all documents related to this project |
 | simulation | Contains all simulide files and hex files for simulation |
 
-## refernces 
-[code references](https://www.codewithc.com/registraion_app)
