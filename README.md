@@ -7,9 +7,10 @@
 
 # PROJECT
 ## Heating System
-#Requirements 
-#Design
-#Implementation
-#Report
-#ImagesAndVideos
-#Others
+   * Requirements
+   * Design/Archietecture
+   * Implementations
+   * Testplan and output
+   * Report
+   * Images and videos
+   * others
