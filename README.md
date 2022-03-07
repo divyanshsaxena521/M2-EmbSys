@@ -6,7 +6,7 @@
     * Digital Thermometer
 
 # PROJECT
-## Seat Heating System
+## Heating System
 #Requirements 
 #Design
 #Implementation
