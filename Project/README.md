@@ -1,4 +1,6 @@
 # M2_EmbSys
+[For simulation click here](https://drive.google.com/file/d/1QgVXk4VbBREhOznuBr2jFEvvJnRlxrRf/view?usp=sharing)
+ 
 ## Contents
 * Introduction
 * workflow
@@ -7,13 +9,15 @@
 * Aim
 * Input, process, output.
 * Instruction to execute.
-* Folder description.
+* Output(simulide)
 * Execution & Working.
+* Folder description.
 * References.
 * Learning resources.
 
 ## Introduction
 The heat control system is basically used to control the temperature of a room. When a user or person enters the room and sit on the chair which is installed with the sensor ,the button sensor gets activated. After that, the user gets access to turn on the heater. The temperature sensor keeps monitoring the temperature and sends the analog value to the microcontroller. The microcontroller processes the analog input of the temperature sensor and outputs a temperature value through serial communication. All the activities of the control system are done on a microcontroller called Atmega328.
+
 
 ## workflow 
 | Code quality score | Cpp check| codica code grade | codacy |
@@ -59,6 +63,12 @@ ADC Value (Temp Sensor)| Output PWM
 1. clone my repository "M2_EmbSys"
 2. open terminal and select "AVR-WSL"
 3. Run "make run" command in terminal for main code execution
+
+## Output(simulide)
+| serial monitor | circuit | oscilloscope | RAM table |
+| --- | --- | --- | --- |
+|![Serial_Monitor](https://user-images.githubusercontent.com/98813747/157101977-5f9869ab-6d1f-4a64-890b-20def19c3632.gif)|![Circuit](https://user-images.githubusercontent.com/98813747/157101985-8b25f0c5-65a4-43ff-991c-e4ac0622d68c.gif)|![Oscilloscope](https://user-images.githubusercontent.com/98813747/157101988-9d893c13-804c-47b6-8da5-73aa6e516ddc.gif)|![RAM_table](https://user-images.githubusercontent.com/98813747/157101990-f6b933bb-303f-44e6-bb03-935a3edc59b9.gif)|
+
 
 ## Execution & Working
 
