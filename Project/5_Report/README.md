@@ -122,12 +122,14 @@ The longer the seat cushion stays on, the hotter it gets. If it were to stay on 
 # DESIGN:-
 
 # **Behavioral Diagram:**
-
+![embedded project ](https://user-images.githubusercontent.com/98813747/156940726-8625581e-bc3d-4c9b-8ae7-6570886ced58.png)
 # **Structural Diagram:**
 
 ## High Level Diagram
+![structural high](https://user-images.githubusercontent.com/98813747/157107369-40e6ee26-c3ec-4be9-bb02-5dd82aed9b4e.jpeg)
 
 ## Low Level Diagram
+![strructural low](https://user-images.githubusercontent.com/98813747/157107418-93d38c9a-bbd6-489f-aca2-f806a4e781da.png)
 
 
 ### Heating Core
@@ -166,6 +168,7 @@ It allows the coolant, the antifreeze, and the air in the system to expand with 
 
 
 # **Block Diagram:**
+![block](https://user-images.githubusercontent.com/98813747/157107498-7fa3853e-27da-45e9-a251-733fb62cfea5.png)
 
 ## Atmega 328
 It enables to measure the heat output as well as control a circulation pump.
@@ -180,3 +183,4 @@ When this Led flicks , it means that the coolant level is running low. It may al
 
  
 # **Flow Chart:**
+![FLOWCHART drawio](https://user-images.githubusercontent.com/98813747/157107574-7afd7b5b-64b0-4028-bfcc-620b245d2c0f.png)
