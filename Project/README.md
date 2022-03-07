@@ -1,26 +1,36 @@
 # M2_EmbSys
-## contents
+## Contents
 * Introduction
 * workflow
 * Folder structure
+* function structure
 * Aim
 * Input, process, output.
 * Instruction to execute.
 * Folder description.
-* References
+* Execution & Working.
+* References.
+* Learning resources.
 
 ## Introduction
 The heat control system is basically used to control the temperature of a room. When a user or person enters the room and sit on the chair which is installed with the sensor ,the button sensor gets activated. After that, the user gets access to turn on the heater. The temperature sensor keeps monitoring the temperature and sends the analog value to the microcontroller. The microcontroller processes the analog input of the temperature sensor and outputs a temperature value through serial communication. All the activities of the control system are done on a microcontroller called Atmega328.
 
 ## workflow 
-| Code quality score | Cpp check| codica code grade | codica |
+| Code quality score | Cpp check| codica code grade | codacy |
 | --- | --- | --- | --- |
-| https://api.codiga.io/project/31608/score/svg |[![cppcheck-action-test](https://github.com/divyanshsaxena521/M2_EmbSys/actions/workflows/cpp%20check.yml/badge.svg)](https://github.com/divyanshsaxena521/M2_EmbSys/actions/workflows/cpp%20check.yml) | https://api.codiga.io/project/31608/status/svg | [![Codacy Badge](https://app.codacy.com/project/badge/Grade/ef3f4784dd50404e86be1b786067e299)](https://www.codacy.com/gh/divyanshsaxena521/M2_EmbSys/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=divyanshsaxena521/M2_EmbSys&amp;utm_campaign=Badge_Grade) |
+| ![code quality score](https://api.codiga.io/project/31608/score/svg) | [![cppcheck-action-test](https://github.com/divyanshsaxena521/M2_EmbSys/actions/workflows/cpp%20check.yml/badge.svg)](https://github.com/divyanshsaxena521/M2_EmbSys/actions/workflows/cpp%20check.yml) | ![codica code grade](https://api.codiga.io/project/31608/status/svg)| [![Codacy Badge](https://app.codacy.com/project/badge/Grade/ef3f4784dd50404e86be1b786067e299)](https://www.codacy.com/gh/divyanshsaxena521/M2_EmbSys/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=divyanshsaxena521/M2_EmbSys&amp;utm_campaign=Badge_Grade) |
 
 ## Folder structure
 | 1_Requirements | 2_Design | 3_Implementation | 4_TestplanAndOutput | 5_Report | 6_ImagesAndVideos | 7_Others |
 | --- | --- | --- | --- | --- | --- | --- |
 | Documents detailing requirements and research | Documents related to design of model | All codes and make file | test plans with requirements | summary of all the folders | screenshots of working projects | refrences and supporting documents |
+
+## Functions 
+
+| Feature Id | Feature |
+| -----------|---------|
+|F_01|  sensing if the person is seated  |
+|F_02| Blinking the LED  |
 
 ## Aim
 * Automatic temperature control display of the room.
@@ -50,6 +60,13 @@ ADC Value (Temp Sensor)| Output PWM
 2. open terminal and select "AVR-WSL"
 3. Run "make run" command in terminal for main code execution
 
+## Execution & Working
+
+
+https://user-images.githubusercontent.com/98813747/157096672-ed8a0543-3194-451a-9e09-64eef0bb1fab.mp4
+
+
+
 ## Folder description
 | Folder | Description | 
 | --- | --- | 
@@ -60,7 +77,7 @@ ADC Value (Temp Sensor)| Output PWM
 
 
 ## References
-|[Getting started ](https://youtu.be/_z0ssXxOM7U)|
+[Getting started ](https://youtu.be/_z0ssXxOM7U)
 
 ## Learning Resources
 
