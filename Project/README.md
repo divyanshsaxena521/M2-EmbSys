@@ -20,9 +20,9 @@ The heat control system is basically used to control the temperature of a room. 
 
 
 ## workflow 
-| Code quality score | Cpp check| codiga code grade | codacy |
-| --- | --- | --- | --- |
-| ![code quality score](https://api.codiga.io/project/31608/score/svg) | [![cppcheck-action-test](https://github.com/divyanshsaxena521/M2_EmbSys/actions/workflows/cpp%20check.yml/badge.svg)](https://github.com/divyanshsaxena521/M2_EmbSys/actions/workflows/cpp%20check.yml) | ![codica code grade](https://api.codiga.io/project/31608/status/svg)| [![Codacy Badge](https://app.codacy.com/project/badge/Grade/ef3f4784dd50404e86be1b786067e299)](https://www.codacy.com/gh/divyanshsaxena521/M2_EmbSys/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=divyanshsaxena521/M2_EmbSys&amp;utm_campaign=Badge_Grade) |
+| Build | Code quality score | Cpp check| codiga code grade | codacy |
+| --- | --- | --- | --- | --- |
+ [![Build-Linux](https://github.com/divyanshsaxena521/M2_EmbSys/actions/workflows/build.yml/badge.svg)](https://github.com/divyanshsaxena521/M2_EmbSys/actions/workflows/build.yml)| ![code quality score](https://api.codiga.io/project/31608/score/svg) | [![cppcheck-action-test](https://github.com/divyanshsaxena521/M2_EmbSys/actions/workflows/cpp%20check.yml/badge.svg)](https://github.com/divyanshsaxena521/M2_EmbSys/actions/workflows/cpp%20check.yml) | ![codica code grade](https://api.codiga.io/project/31608/status/svg)| [![Codacy Badge](https://app.codacy.com/project/badge/Grade/ef3f4784dd50404e86be1b786067e299)](https://www.codacy.com/gh/divyanshsaxena521/M2_EmbSys/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=divyanshsaxena521/M2_EmbSys&amp;utm_campaign=Badge_Grade) |
 
 ## Folder structure
 | 1_Requirements | 2_Design | 3_Implementation | 4_TestplanAndOutput | 5_Report | 6_ImagesAndVideos | 7_Others |
