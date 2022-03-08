@@ -1,5 +1,5 @@
 /**
- * @file SeatHeatingApp.c
+ * @file RoomHeatingApp.c
  * @author Divyansh saxena(saxenadivyansh521@gmail.com)
  * @brief Heat Seating Application to set Temperature of seat
  * @version 0.1
