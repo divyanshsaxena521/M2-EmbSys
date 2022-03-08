@@ -1,11 +1,11 @@
 /**
  * @file SeatHeatingApp.c
- * @author Muskan Jaiswal
+ * @author Divyansh saxena(saxenadivyansh521@gmail.com)
  * @brief Heat Seating Application to set Temperature of seat
  * @version 0.1
- * @date 2021-12-01
+ * @date 2022-03-03
  * 
- * @copyright Copyright (c) 2021
+ * @copyright Copyright (c) 2022
  * 
  */
 
@@ -30,7 +30,7 @@ int main(void)
             
 
         }
-        else  //in all other cases
+        else  
         {
             TurnLED_OFF();//Turn LED OFF
 		    _delay_ms(200);
